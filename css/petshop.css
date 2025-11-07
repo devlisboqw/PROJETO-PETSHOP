@@ -35,7 +35,7 @@ nav a {
 nav a:hover { 
     color: #6DD432;
 }
-h2 {
+h2{
     text-transform: uppercase;
     margin-bottom: 15px;
 }
@@ -44,50 +44,64 @@ h2 {
     padding-right: 0;
     margin-right: 0;
 }
-#produto .flex-conteiner {
-    margin-top: 42px;
+#produto .flex-container, #Contato .flex-container{
+    margin-top: 43px;
 }
-.fundo-verde {
-    background-color: #bdff9c;
+.fundo-verde{
+    background-color: #BDFF9c;
 }
-.conteiner {
+.container{
     width: 900px;
     margin: 0 auto;
     padding: 56px 0;
 }
-.flex-conteiner {
+.flex-container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.flex-conteiner .col {
+.flex-container .col{
     width: 430px;
 }
-.produto {
-    width: 233px;
+.produto{
+    width: 235px;
 }
-.produto figure {
-    border: solid 1px #c4c4c4;
+.produto figure{
+    border: 1px solid #c4c4c4;
     background-color: #fff;
     margin: 0 0 15px 0;
-    padding: 0;
     text-align: center;
     height: 160px;
+    padding: 0;
     line-height: 160px;
 }
-.produto figure img {
-    vertical-align: middle;
-}
-.text-center {
+.texto-centralizado{
     text-align: center;
 }
-.btn-pata {
+.produto figure img{
+    vertical-align: middle;
+}
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
     display: inline-block;
     padding: 10px 20px;
-    border: solid 1px #91e467;
-    background-color: #d2fbbd;
-    color: #000;
-    border-radius: 5px;
     text-decoration: none;
-    
+    border-radius: 5px;
+    color: #000;
+}
+form{
+    width: 380px;
+}
+form input,
+form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #6DD432;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+iframe{
+    width: 100%;
 }
